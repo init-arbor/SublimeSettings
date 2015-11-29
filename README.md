@@ -23,13 +23,13 @@
 ## C
 * Perceiver
 * ScopeAlways
-* [self made] in this repository
+* [self made](https://github.com/init-arbor/SublimeSettings/blob/master/c_syntax.YAML-tmLanguage) in this repository
  
- 
+
 ## Themes
 * Dayle Rees Color Schemes 
 * Predawn
 * Theme-Phoenix
 * Theme-Soda
 * Theme-Spacegray
-* [self made] in this repository
+* [self made](https://github.com/init-arbor/SublimeSettings/blob/master/color_theme.YAML-tmtheme) in this repository

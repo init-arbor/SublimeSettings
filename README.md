@@ -21,7 +21,7 @@
 
  
 ## C
-* Perceiver
+* [Sublime C Perceiver](https://github.com/init-arbor/Sublime-C-Perceiver)
 * ScopeAlways
 * [self made](https://github.com/init-arbor/SublimeSettings/blob/master/c_syntax.YAML-tmLanguage) in this repository
  

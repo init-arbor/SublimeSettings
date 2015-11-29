@@ -1,0 +1,226 @@
+name: T1
+settings:
+- settings: {activeGuide: '#9d550fb0', background: '#2d2d2d', bracketContentsForeground: '#ffffff',
+    bracketContentsOptions: underline, bracketsForeground: '#e9c865', bracketsOptions: underline,
+    caret: '#f8f8f0', findHighlight: '#ffe792', findHighlightForeground: '#000000',
+    foreground: '#dfdfdf', invisibles: '#3b3a32', lineHighlight: '#567', selection: '#D3643B',
+    selectionBorder: '#D3643B', selectionForeground: '#ffffff', tagsOptions: stippled_underline}
+
+ 
+
+- scope: keyword.hans.y
+  settings: {fontStyle: italic, background: '#D3643B', foreground: '#FFF'}
+- scope: dvfs
+  settings: {fontStyle: italic, background: '#D3643B', foreground: '#FFF'}
+- scope: qkeyword.control
+  settings: {background: '#D3643B', foreground: '#FFF'}
+
+
+- scope: all_capital
+  settings: {background: '#FFF', foreground: '#F00'}
+
+- scope: after_period
+  settings: {background: '#FFF', foreground: '#00F'}
+- scope: variable.other.dot-access.c
+  settings: { foreground: '#92bfbf'}
+
+- scope:  string.quoted.double.c
+  settings: {background: '#555',foreground: '#CCC'}
+
+# Hans
+- scope: hans.ptr_deref
+  settings: {   foreground: '#ABB'}
+- scope: hans.struct_deref
+  settings: { foreground: '#ABB'} #=====
+
+
+- scope: hans.all_capitals
+  settings: { foreground: '#cc99cc' }
+- scope: hans.assert
+  settings: { background: '#cc6666', foreground: '#FFF' }
+- scope: hans.dot
+  settings: { background: '#cc6666', foreground: '#b5bd68'  }
+- scope: hans.comma
+  settings: { foreground: '#b5bd68'  }
+- scope: hans.return 
+  settings: { foreground: '#FF9787'}
+- scope: hans.variable_declar
+ # settings: {  foreground: '#bddcdc'  }
+  settings: {  foreground: '#bddcdc'  }
+
+- scope: keyword.operator.dereference
+  settings: { foreground: '#ecec89', font-size: 33}
+
+# Tomorrow night night blue
+# ffeead Yellow
+
+#Tomorrow Night Eighties
+#f2777a Red
+#cc99cc Purple
+#ffcc66 Yellow
+
+#predawn
+#cf5340 - Red
+#f18260 - Predawn Orange
+#f49d62 - Orange
+#ecec89 - Yellow
+#92bfbf - Blue
+#bddcdc - Light Blue
+#b4d388 - Green
+ 
+
+
+# Tomorrow Night theme
+- scope: color.Red
+  settings: {background: '#cc6666', foreground: '#FFF'}
+- scope: color.Orange
+  settings: {background: '#de935f', foreground: '#FFF'}
+- scope: color.Green
+  settings: {background: '#b5bd68', foreground: '#FFF'}
+- scope: color.Yellow
+  settings: {background: '#f0c674', foreground: '#FFF'}
+- scope: color.Aqua
+  settings: {background: '#8abeb7', foreground: '#FFF'}
+- scope: color.Blue
+  settings: {background: '#81a2be', foreground: '#FFF'}
+- scope: color.Purple
+  settings: {background: '#b294bb', foreground: '#FFF'}
+  
+#Tomorrow Night Bright
+- scope: color.red
+  settings: {background: '#d54e53', foreground: '#FFF'}
+- scope: color.orange
+  settings: {background: '#e78c45', foreground: '#FFF'}
+- scope: color.yellow
+  settings: {background: '#e7c547', foreground: '#FFF'}
+- scope: color.green
+  settings: {background: '#b9ca4a', foreground: '#FFF'}
+- scope: color.aqua
+  settings: {background: '#70c0b1', foreground: '#FFF'}
+- scope: color.blue
+  settings: {background: '#7aa6da', foreground: '#FFF'}
+- scope: color.purple
+  settings: {background: '#c397d8', foreground: '#FFF'}
+
+- scope: color.pur 
+  settings: {background: '#593858', foreground: '#FFF'}
+
+#legacy
+- name: User-defined constant
+  scope: constant.language punctuation
+  settings: {foreground: '#FF0000'}
+- name: Comment
+  scope: comment
+  #settings: {foreground: '#c3b8b7'}
+  settings: {foreground: '#969896'}
+- name: String
+  scope: string
+  settings: {foreground: '#b5db99'}
+- name: Number
+  scope: constant.numeric
+  settings: {foreground: '#b5db99'}
+- name: Built-in constant
+  scope: constant.language
+  settings: {foreground: '#FF9787'}
+- name: User-defined constant
+  scope: constant.character, constant.other
+  settings: {foreground: '#FF9787'}
+- name: Variable
+  scope: variable
+  settings: {fontStyle: 'italic'}
+- name: Keyword
+  scope: keyword
+  settings: {foreground: '#FF9787'}
+- name: Storage
+  scope: storage
+  settings: {fontStyle: '', foreground: '#FF9787'}
+- name: Storage type
+  scope: storage.type
+  settings: {fontStyle: '', foreground: '#e9c865'}
+- name: Class name
+  scope: entity.name.class
+  settings: {fontStyle: underline, foreground: '#FF9787'}
+- name: Inherited class
+  scope: entity.other.inherited-class
+  settings: {fontStyle: italic underline, foreground: '#FF9787'}
+- name: Function name
+  scope: entity.name.function
+  settings: {fontStyle: '', foreground: '#b5db99'}
+- name: Function argument
+  scope: variable.parameter
+  settings: {foreground: '#FF0000'}
+- name: Function argument
+  scope: meta.parans
+  settings: {foreground: '#FF0000'}
+- name: Tag name
+  scope: entity.name.tag
+  settings: {fontStyle: '', foreground: '#e9c865'}
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings: {fontStyle: '', foreground: '#FF9787'}
+- name: Library function
+  scope: support.function
+ # settings: {fontStyle: '', foreground: '#e9c865'}
+  settings: {fontStyle: '', foreground: '#b5db99'}
+- name: Library constant
+  scope: support.constant
+  settings: {fontStyle: '', foreground: '#FF9787'}
+- name: Library class/type
+  scope: support.type, support.class
+  settings: {fontStyle: italic, foreground: '#FF9787'}
+- name: Library variable
+  scope: support.other.variable
+  settings: {fontStyle: ''}
+- name: Invalid
+  scope: invalid
+  settings: {background: '#00a8c6', fontStyle: '', foreground: '#f8f8f0'}
+- name: Invalid deprecated
+  scope: invalid.deprecated
+  settings: {background: '#00a8c6', foreground: '#f8f8f0'}
+- name: JSON String
+  scope: meta.structure.dictionary.json string.quoted.double.json
+  settings: {foreground: '#b5db99'}
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings: {foreground: '#75715E'}
+- name: diff.deleted
+  scope: markup.deleted
+  settings: {foreground: '#00A8C6'}
+- name: diff.inserted
+  scope: markup.inserted
+  settings: {foreground: '#A6E22E'}
+- name: diff.changed
+  scope: markup.changed
+  settings: {foreground: '#E6DB74'}
+- scope: constant.numeric.line-number.find-in-files - match
+  settings: {foreground: '#8FBE00A0'}
+- scope: entity.name.filename.find-in-files
+  settings: {foreground: '#E6DB74'}
+- scope: keyword.other
+  settings: {foreground: '#e3d7d6'}
+- scope: meta.property-value, support.constant.property-value, constant.other.color
+  settings: {foreground: '#b5db99'}
+- scope: meta.structure.dictionary.json string.quoted.double.json
+  settings: {foreground: '#FF9787'}
+- scope: meta.structure.dictionary.value.json string.quoted.double.json
+  settings: {foreground: '#b5db99'}
+- name: Function argument
+  scope: meta.property-name support.type.property-name
+  settings: {fontStyle: normal}
+- name: Function argument
+  scope: meta.property-value punctuation.separator.key-value
+  settings: {foreground: '#ffffff'}
+- name: Function argument
+  scope: keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new,
+    keyword.other.special-method, keyword.other.unit, keyword.other.use-as
+  settings: {foreground: '#e9c865'}
+- name: Function argument
+  scope: meta.use support.class.builtin, meta.other.inherited-class support.class.builtin
+  settings: {fontStyle: normal, foreground: '#ffffff'}
+- name: Function argument
+  scope: variable.other
+  settings: {fontStyle: normal, foreground: ''}
+
+
+
+uuid: 1e136163-6e1b-8cdf-a06e-107c2e6370a0

@@ -23,7 +23,7 @@
 ## C
 * [Sublime C Perceiver](https://github.com/init-arbor/Sublime-C-Perceiver)
 * ScopeAlways
-* [self made](https://github.com/init-arbor/SublimeSettings/blob/master/c_syntax.YAML-tmLanguage) in this repository
+* [self tweak](https://github.com/init-arbor/SublimeSettings/blob/master/c_syntax.YAML-tmLanguage) in this repository
  
 
 ## Themes
@@ -32,8 +32,8 @@
 * Theme-Phoenix
 * Theme-Soda
 * Theme-Spacegray
-* [self made](https://github.com/init-arbor/SublimeSettings/blob/master/color_theme.YAML-tmtheme) "color theme" in this repository
-* [self made](https://github.com/init-arbor/SublimeSettings/blob/master/phoenix_tweak_with_predawn) "theme" in this repository
+* [self tweak](https://github.com/init-arbor/SublimeSettings/blob/master/color_theme.YAML-tmtheme) "color theme" in this repository
+* [self tweak](https://github.com/init-arbor/SublimeSettings/blob/master/phoenix_tweak_with_predawn) "theme" in this repository
 
 ```
     "color_scheme": "Packages/User/setting/color_theme.tmTheme",

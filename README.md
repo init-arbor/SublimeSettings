@@ -3,7 +3,8 @@
 * AAAPackageDev  (for YAML)
 * Highlight (copy code to RTF format)
 * PackageResourceViewer (for theme tweaks)
-
+* TrailingSpaces
+* Alignment
 
  
 ## Version Control
